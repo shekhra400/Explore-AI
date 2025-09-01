@@ -7,7 +7,7 @@ While I come from a strong software engineering background, this marks my transi
 My goal is to learn in public, share my progress, and connect with other talented individuals in the field.
 
 This repository contains **Streamlit-powered AI apps** that demonstrate various concepts in Generative AI and intelligent automation.  
-You can access the UI interface [here](https://explore-ai.streamlit.app/).  
+You can access the UI interface [here](https://explore-agentic-ai.streamlit.app/).  
 
 ---
 
@@ -17,13 +17,10 @@ You can access the UI interface [here](https://explore-ai.streamlit.app/).
 
 <img src="resources/static/smart_it_troubleshoot.jpeg" width="400" height="250">
 
-This application is built to support IT professionals in efficiently diagnosing and resolving technical issues using AI.  
-It enables users to upload documents such as system logs, technical manuals, and error reports, and interact with the system through natural language queries to receive intelligent, context-aware insights.
 
-The app leverages **Retrieval-Augmented Generation (RAG)** to enhance the accuracy of responses by combining document retrieval with large language model (LLM) capabilities.  
-At its core, it follows a **Multi-Agent Agentic AI design pattern**, where a **Supervisor Agent** dynamically interprets the user's prompt and orchestrates the appropriate agents and tools based on the available resources.
+This application is designed to assist IT professionals in diagnosing and resolving technical issues using AI. Users can upload **PDF troubleshooting guides** and interact with the system through natural language queries to receive context-aware, intelligent insights.
 
-Once a response is generated, the system optionally integrates with a **Slack tool** to send the troubleshooting message directly to an IT support Slack channel, streamlining communication and accelerating issue resolution.
+Built on a Multi-Agent Agentic AI design using LangGraph and Retrieval-Augmented Generation (RAG), it combines semantic retrieval with LLM reasoning, coordinated by a Supervisor Agent. A human-in-the-loop Slack integration allows users to selectively share key troubleshooting steps and takeaways with support teams, enhancing collaboration and knowledge flow.
 
 
 ---

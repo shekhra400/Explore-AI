@@ -73,29 +73,16 @@ tiles = [
         "page": "pages/1_IT_troubleshooting_RAG.py",
         "disabled": True,
         "banner": "coming_soon.png"
-    },
-    # {
-    #     "icon": "🔍",
-    #     "title": "Semantic Search",
-    #     "description": "Neural search engine with semantic understanding and cross-lingual capabilities.",
-    #     "page": "pages/5_Search_Engine.py"
-    # },
-    # {
-    #     "icon": "⚙️",
-    #     "title": "Settings & Config",
-    #     "description": "Configure API keys, model parameters, and system preferences for all tools.",
-    #     "page": "pages/6_Settings.py"
-    # }
+    }
 ]
 
-# Create columns for tiles (2 per row)
+
 col1, col2 = st.columns(2)
 
 for i, tile in enumerate(tiles):
     col = col1 if i % 2 == 0 else col2
     
     with col:
-        # Create a clickable container
         show_static_image(tile["banner"])
         if st.button(
             f"{tile['icon']} **{tile['title']}**\n\n{tile['description']}",
