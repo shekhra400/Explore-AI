@@ -201,7 +201,6 @@ if prompt:
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
-        print("messages list", st.session_state.messages)
     with st.spinner("Thinking..."):
         try:
             answer, context_docs = st.session_state.engine.ask(prompt)

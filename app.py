@@ -48,7 +48,7 @@ tiles = [
         "title": "Smart IT Troubleshoot Assist",
         "description": "Basic Retrieval-Augmented Generation system for document Q&A with straightforward implementation.",
         "page": "pages/1_IT_troubleshooting_RAG.py",
-        "banner": "smart_it_1.jpeg"
+        "banner": "smart_it_troubleshoot.jpeg"
     },
     {
         "icon": "🔬",
@@ -96,7 +96,6 @@ for i, tile in enumerate(tiles):
     
     with col:
         # Create a clickable container
-        #show_static_image("smart_it_1.jpeg")
         show_static_image(tile["banner"])
         if st.button(
             f"{tile['icon']} **{tile['title']}**\n\n{tile['description']}",

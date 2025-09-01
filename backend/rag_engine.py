@@ -103,7 +103,6 @@ class RAGEngine:
 
 
     def _create_llm_object(self):
-        print("Creating OpenAI LLM object", self.provider)
         if self.provider == "OpenAI" and self.api_key:
             api_key = self.api_key
             return ChatOpenAI(
