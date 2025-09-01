@@ -21,7 +21,7 @@ with st.sidebar:
     
     # Create navigation links
     pages = [
-        ("🏠 Home", "app.py", False),
+        ("🏠 Home", "Explore_AI.py", False),
         ("📄 IT Troubleshoot Assist", "pages/1_IT_troubleshooting_RAG.py", False),
         ("🔬 Complex RAG", "pages/1_IT_troubleshooting_RAG.py", False),
         ("💬 AI Chatbot", "pages/1_IT_troubleshooting_RAG.py", True),

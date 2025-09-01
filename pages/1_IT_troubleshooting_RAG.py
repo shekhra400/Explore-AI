@@ -102,7 +102,7 @@ st.markdown("""
 # ----------------------------
 with st.sidebar:
     if st.button("← Back to Home"):
-        st.switch_page("app.py")
+        st.switch_page("Explore_AI.py")
     st.header("⚙️ Settings")
 
     provider = st.selectbox("LLM Provider", ["AzureOpenAI", "OpenAI"], index=0,key="provider")
