@@ -242,7 +242,7 @@ class RAGEngine:
             Analyze the following excerpts (pages approx. {page_min}–{page_max}) and produce a concise markdown report.
             Your task is to analyze technical documents and identify the most specific IT specialization or domain they focus on
             **Output format (markdown, max ~120 words):**
-            - **Domain**:: <specific Domain with platform>
+            - **Domain**:: <specific Domain with platform, max ~5 words>
                 Examples:
                 - Domain: Cloud security and certificate management (AWS)
                 - Domain: Infrastructure automation and CI/CD (Azure)

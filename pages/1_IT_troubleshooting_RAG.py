@@ -150,7 +150,6 @@ with st.sidebar:
         if st.session_state.uploaded_id != file_id:
             try:
                 file_bytes = uploaded.read()
-                st.session_state.messages = []
                 
                 with st.spinner("Indexing PDF..."):
                     graph = st.session_state.engine.index_pdf(file_bytes, uploaded.name)
