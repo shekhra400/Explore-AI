@@ -63,7 +63,7 @@ st.markdown("""
 
 """, unsafe_allow_html=True)
 
-st.set_page_config(page_title="Chat to PDF (LangGraph + Streamlit)", page_icon="📄", layout="wide")
+st.set_page_config(page_title="Chat to PDF (LangGraph + Streamlit)", layout="wide")
 
 @st.cache_resource(show_spinner=False)
 def get_engine(provider, model, temperature, api_key):

@@ -23,7 +23,7 @@ with st.sidebar:
     pages = [
         ("🏠 Home", "Explore_AI.py", False),
         ("📄 IT Troubleshoot Assist", "pages/1_IT_troubleshooting_RAG.py", False),
-        ("🔬 Complex RAG", "pages/1_IT_troubleshooting_RAG.py", False),
+        ("🔬 Complex RAG", "pages/1_IT_troubleshooting_RAG.py", True),
         ("💬 AI Chatbot", "pages/1_IT_troubleshooting_RAG.py", True),
         ("📊 Analytics", "pages/1_IT_troubleshooting_RAG.py", True),
     ]
@@ -46,14 +46,14 @@ tiles = [
     {
         "icon": "📄",
         "title": "Smart IT Troubleshoot Assist",
-        "description": "Basic Retrieval-Augmented Generation system for document Q&A with straightforward implementation.",
+        "description": "A multi-agent, RAG-powered assistant that guides users through IT troubleshooting via contextual Q&A and proactively notifies support teams",
         "page": "pages/1_IT_troubleshooting_RAG.py",
         "banner": "smart_it_troubleshoot.jpeg"
     },
     {
         "icon": "🔬",
         "title": "Complex RAG (Coming soon..)",
-        "description": "Advanced RAG with hybrid search, reranking, and multi-modal capabilities for enterprise use.",
+        "description": "Multi-agent assistant with advanced RAG, hybrid search, reranking, and multi-modal support—built for enterprise-grade contextual Q&A and smart notifications",
         "page": "pages/1_IT_troubleshooting_RAG.py.py",
         "disabled": True,
         "banner": "coming_soon.png"
