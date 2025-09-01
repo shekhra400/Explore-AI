@@ -1,0 +1,25 @@
+[project]
+name = "explore-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.11.0.post1",
+    "fitz>=0.0.1.dev2",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-mcp-adapters>=0.1.9",
+    "langchain-openai>=0.3.30",
+    "langgraph>=0.6.6",
+    "openai>=1.99.6",
+    "pydantic>=2.11.7",
+    "pypdf>=5.9.0",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=5.1.0",
+    "slack-sdk>=3.36.0",
+    "st-clickable-images>=0.0.3",
+    "streamlit>=1.48.0",
+    "streamlit-option-menu>=0.4.0"
+]
