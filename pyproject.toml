@@ -1,8 +1,7 @@
 [project]
-name = "explore-ai"
+name = "Explore_AI"
 version = "0.1.0"
 description = "Explore Agentic AI"
-package-mode = false
 readme = "README.md"
 requires-python = ">=3.10,<=3.13.6"
 dependencies = [
@@ -22,10 +21,3 @@ dependencies = [
     "streamlit>=1.48.0",
     "streamlit-option-menu>=0.4.0"
 ]
-
-
-[build-system]
-requires = ["setuptools>=69", "wheel"]
-build-backend = "setuptools.build_meta"
-[tool.setuptools.packages.find]
-where = ["."]
