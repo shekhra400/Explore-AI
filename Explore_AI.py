@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Explore AI - Solution's Hub",
     page_icon="🚀",
     layout="wide",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="expanded"
 )
 
 # Load custom CSS
@@ -53,7 +53,7 @@ tiles = [
     {
         "icon": "🔬",
         "title": "Complex RAG (Coming soon..)",
-        "description": "Multi-agent assistant with advanced RAG, hybrid search, reranking, and multi-modal support—built for enterprise-grade contextual Q&A and smart notifications",
+        "description": "Enterprise-grade RAG solution featuring hybrid search, intelligent reranking, and multi-modal capabilities for advanced contextual understanding.",
         "page": "pages/1_IT_troubleshooting_RAG.py",
         "disabled": True,
         "banner": "coming_soon.png"
