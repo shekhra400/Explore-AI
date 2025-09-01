@@ -54,7 +54,7 @@ tiles = [
         "icon": "🔬",
         "title": "Complex RAG (Coming soon..)",
         "description": "Multi-agent assistant with advanced RAG, hybrid search, reranking, and multi-modal support—built for enterprise-grade contextual Q&A and smart notifications",
-        "page": "pages/1_IT_troubleshooting_RAG.py.py",
+        "page": "pages/1_IT_troubleshooting_RAG.py",
         "disabled": True,
         "banner": "coming_soon.png"
     },
@@ -62,7 +62,7 @@ tiles = [
         "icon": "💬",
         "title": "AI Chatbot (Coming soon..)",
         "description": "Interactive conversational AI with context awareness and personality customization.",
-        "page": "pages/1_IT_troubleshooting_RAG.py.py",
+        "page": "pages/1_IT_troubleshooting_RAG.py",
         "disabled": True,
         "banner": "coming_soon.png"
     },
@@ -70,7 +70,7 @@ tiles = [
         "icon": "📊",
         "title": "Analytics Dashboard (Coming soon..)",
         "description": "Real-time data visualization and insights powered by machine learning algorithms.",
-        "page": "pages/1_IT_troubleshooting_RAG.py.py",
+        "page": "pages/1_IT_troubleshooting_RAG.py",
         "disabled": True,
         "banner": "coming_soon.png"
     },
